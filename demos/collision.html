@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Bunny-VisionPro</title>
+
+    <meta name="viewport" content="width=1000">
+    <link rel="stylesheet" href="../bunny_file/main.css">
+    <link rel="stylesheet" href="../bunny_file/bulma.min.css">
+    <link rel="icon" href="../static/images/bunny_image.png" type="image/x-icon">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="../bunny_file/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7S6TEJTY63');
+    </script>
+
+
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<body id="top" class data-new-gr-c-s-check-loaded="14.1141.0" data-gr-ext-installed>
+
+    <main id="main-content">
+
+        <h1 style="text-align: center; margin-bottom: 0; color: #e47303; font-size: 3.5em; font-weight:600">
+            <img src="../static/images/bunny_image.png" style="vertical-align: sub;" width="120">
+            Bunny-VisionPro
+        </h1>
+        <h2 style="text-align: center; color: #e47303;; font-size:33px; margin-top:-10px; font-weight: 600">Real-Time Bimanual Dexterous Teleoperation
+            for Imitation Learning</h2>
+
+        <div class="box alt" style="margin-bottom: 0em;margin-left:20px;">
+            <div id="authors" class="2u"></div>
+            <span>
+                <p style="text-align: center; font-size: 25px;"> Anonymous authors </p>
+            </span>
+        </div>
+        </div>
+
+        <hr style="margin-top: 1em;">
+        <div style="padding-bottom:1em; padding-top: 5em; width: 60em; max-width: 70em; margin-left: auto; margin-right: auto;">
+            <section>
+
+                <h2 style="text-align: left; margin-bottom:10px;font-weight: 600;">Collision Avoidance: Ablation Study</a></h2>
+                
+                <div>
+                    In our simulation, we use blue cubes to represent obstacles. The robot's goal is to move around without hitting these obstacles.
+                    Without collision avoidance, the robot collides with them, shown as penetration in the simulation, which would be dangerous if deployed in real robots. With collision avoidance, the robot successfully bypasses the obstacles in real time, demonstrating the effectiveness of our collision avoidance system.
+                </div>
+
+                <br>
+
+                <div class="row 50% uniform" style="width: 100%;">
+                    <div class="2u" style="font-size: 1.3em; line-height: 2em; text-align: center; width:50%;">
+                        w/o collision avoidance
+                        <span class="image fit" style="margin-bottom: 0em;">
+                            <video class="videostyle_with_border_success" autoplay="" loop="" muted="" playsinline=""
+                                style="width: 100%; margin-right: 0%;" preload="metadata">
+                                <source src="../bunny_file/rebuttal_videos/collision/collision.mp4" type="video/mp4">
+                            </video>
+                        </span>
+                    </div>
+
+                    <div class="2u" style="font-size: 1.3em; line-height: 2em; text-align: center; width: 50%;">
+                        w/ collision avoidance
+                        <span class="image fit" style="margin-bottom: 0em;">
+                            <video class="videostyle_with_border_success" autoplay="" loop="" muted="" playsinline=""
+                                style="width: 100%; margin-left: 0%;" preload="metadata">
+                                <source src="../bunny_file/rebuttal_videos/collision/collision_free.mp4" type="video/mp4">
+                            </video>
+                        </span>
+                    </div>
+                </div>
+                
+                
+            </section>
+        </div>
+    </main>
+</body>
